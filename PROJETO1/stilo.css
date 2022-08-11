@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Red Hat Display", sans-serif;
+}
+
+body{
+      
+    background-image: url(/img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+main{
+    background-color:#fff;
+    max-width: 416px;
+    border-radius: 1rem;
+    box-shadow:0px 40px -20px rgba(13, 48, 189, 0.151826);
+
+
+}
+main img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+
+    
+}
+
+section{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color : hsl(223, 47%, 23%)
+}
+
+
+main section span{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+
+}
+
+main div.inform{
+  
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+background: hsl(225, 100%, 98%);
+padding: 1.5rem 1rem;
+border-radius:0.8rem;
+margin: 2rem 0 ;
+
+}
+
+
+
+main .inform .musicap2{
+
+display: flex;
+flex-direction: column;
+
+}
+
+main section{ 
+
+    display :flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2rem;
+    height: 100%;
+    width: 100%;
+    
+}
+main .inform .musicp{
+
+    display :flex ;
+    align-items: center;
+
+
+}
+main .inform img{
+    width: 50px;
+    margin-right: 1rem;
+}
+
+main .inform a{
+  font-weight: 600;
+  font-size: 90%;
+  color:hsl(245, 75%, 52%);
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+main .inform a:hover{
+    color:hsl(223, 47%, 23%);
+  
+}
+ main button{
+
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding:1rem 0 ;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 0.8rem;
+    color:#fff;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    box-shadow:0px 20px 20px rgb(56,42, 255, 0.2);
+    transition: background 0.4s;
+ }
+
+ main button:hover{
+
+    background-color:blueviolet;
+ }
+
+ #pagamentp{
+
+    text-decoration: none;
+    color:hsl(224,23%,55%);
+    font-weight: 600;
+    font-size:0.9rem;
+    margin-bottom: 2rem;
+    transition: color 0.3s;
+ }
+
+ #pagamentp:hover{
+
+   color: hsl(223, 47%, 23%);
+
+ }
+
+ div.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+ }
+
+ @media screen and (max-width: 650px) {
+    body {
+         background-image: url(/img/pattern-background-mobile.svg);
+         background-size: 100%;
+         background-repeat: no-repeat;
+
+    }
+ }
+
+ @media screen and (max-width: 980px) {
+    section {
+       padding: 0 3rem;
+
+    }
+ }
